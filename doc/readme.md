@@ -10,3 +10,8 @@ Understand and use Deep Learning
 - Neural Network - ReLU, Dropout
 - Convolutional Neural Networks
 - Recurrent Neural Network
+
+
+
+Reference
+- https://hunkim.github.io/ml/
