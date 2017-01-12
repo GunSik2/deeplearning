@@ -15,3 +15,4 @@ Understand and use Deep Learning
 
 Reference
 - https://hunkim.github.io/ml/
+- http://www.holehouse.org/mlclass/
