@@ -19,3 +19,4 @@ Reference
 - https://github.com/aymericdamien/TensorFlow-Examples
 - https://github.com/tflearn/tflearn/tree/master/examples
 - http://rasbt.github.io/mlxtend/user_guide
+- http://cs231n.github.io/neural-networks-1/
