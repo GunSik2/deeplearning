@@ -18,3 +18,4 @@ Reference
 - http://www.holehouse.org/mlclass/
 - https://github.com/aymericdamien/TensorFlow-Examples
 - https://github.com/tflearn/tflearn/tree/master/examples
+- http://rasbt.github.io/mlxtend/user_guide
