@@ -20,3 +20,4 @@ Reference
 - https://github.com/tflearn/tflearn/tree/master/examples
 - http://rasbt.github.io/mlxtend/user_guide
 - http://cs231n.github.io/neural-networks-1/
+- https://github.com/WegraLee/deep-learning-from-scratch
