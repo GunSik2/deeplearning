@@ -33,7 +33,7 @@ pip install setuptools distribute
 pip install numpy
 
 # install scientific packages (seaborn instead of matplotlib for pretty plots)
-pip install sympy scipy seaborn pandas jupyter
+pip install sympy scipy seaborn pandas jupyter pillow
 
 # install scikit-learn separately, it depends on numpy and scipy
 pip install scikit-learn
