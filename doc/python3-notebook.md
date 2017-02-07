@@ -49,17 +49,18 @@ workon jupnb
 ```
 mkdir -p ~/.jupyter
 cd ~/.jupyter
-openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout ${ENV}.pem -out jupnb.pem
+openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout jupnb.key -out jupnb.pem
 echo "c.NotebookApp.ip = '*'" >> jupyter_notebook_config.py
 echo "c.NotebookApp.port = 8888" >> jupyter_notebook_config.py
 echo "c.NotebookApp.open_browser = False" >> jupyter_notebook_config.py
 echo "c.NotebookApp.password = u'$(ipython -c 'from notebook.auth import passwd; print(passwd())')'" >> jupyter_notebook_config.py
-echo "c.NotebookApp.certfile = u'jupnb.pem'" >> jupyter_notebook_config.py
+echo "c.NotebookApp.certfile = u'$HOME/.jupyter/jupnb.pem'" >> jupyter_notebook_config.py
+echo "c.NotebookApp.keyfile = u'$HOME/.jupyter/jupnb.key'" >> jupyter_notebook_config.py
 echo "c.NotebookApp.cookie_secret_file = '$HOME/.jupyter/secret_cookie'" >> jupyter_notebook_config.py
 cp ~/.jupyter/jupnb.pem .
 cd -
 ```
-- run server and open http://127.0.0.1:8888/ in your browser:
+- run server and open https://127.0.0.1:8888/ in your browser:
 ```
 jupyter notebook
 ```
