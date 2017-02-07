@@ -62,7 +62,8 @@ cd -
 ```
 - run server and open https://127.0.0.1:8888/ in your browser:
 ```
-jupyter notebook
+mkdir jupbook; cd jupbook # the home directory for jupyter user
+jupyter notebook  # to run as daemon: nohup jupyter notebook 2>&1 > jupbook.log &
 ```
 
 - Reference
