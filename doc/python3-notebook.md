@@ -67,3 +67,4 @@ jupyter notebook
 
 - Reference
   - http://bikulov.org/blog/2015/11/07/install-jupyter-notebook-and-scientific-environment-in-ubuntu-14-dot-04-with-python-3/
+  - http://jupyter-notebook.readthedocs.io/en/latest/public_server.html
