@@ -1,4 +1,6 @@
 ## Deeplearning experiment environment
+### Env
+- Windows 10
 
 ### Installation
 - Cygwin: https://www.cygwin.com/ 
