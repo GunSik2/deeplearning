@@ -41,15 +41,20 @@ print(sess.run(c))
 ```
 - run in tensorflow env.
 ```
-source activate tensorflow
-python gpu.py
-source deactivate tensorflow
+$ source activate tensorflow
+$ python gpu.py
+Device mapping:
+MatMul: (MatMul): /job:localhost/replica:0/task:0/cpu:0
+$ source deactivate tensorflow
 ```
 - run in tensorflow-gpu env.
 ```
-source activate tensorflow-tf
-python gpu.py
-source deactivate tensorflow-tf
+$ source activate tensorflow-tf
+$ python gpu.py
+Device mapping:
+/job:localhost/replica:0/task:0/gpu:0 -> device: 0, name: GeForce GT 710, pci bus id: 0000:01:00.0
+MatMul: (MatMul): /job:localhost/replica:0/task:0/gpu:0
+$ source deactivate tensorflow-tf
 ```
 ## Reference
 - http://www.heatonresearch.com/2017/01/01/tensorflow-windows-gpu.html
