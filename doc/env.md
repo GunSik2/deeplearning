@@ -1,6 +1,8 @@
 ## Deeplearning experiment environment
 
 ### Installation
+- Cygwin: https://www.cygwin.com/ 
+  - + winpty: https://github.com/rprichard/winpty
 - Visual Studio (Visual C++ 14.0): https://www.visualstudio.com/downloads/
 - CUDA Installation: https://developer.nvidia.com/cuda-downloads
 - CUDNN - CUDA for Deep Neural Networks: https://developer.nvidia.com/cudnn
@@ -50,3 +52,4 @@ source deactivate tensorflow-tf
 ## Reference
 - http://www.heatonresearch.com/2017/01/01/tensorflow-windows-gpu.html
 - https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/how_tos/using_gpu/
+- https://community.cablelabs.com/wiki/display/OCORI/Build+Environment+-+Cygwin+MinGW
