@@ -18,6 +18,7 @@ source activate tensorflow
 conda install jupyter
 conda install scipy
 pip install tensorflow
+source deactivate
 ```
 - Conda with GPU 
 ```
