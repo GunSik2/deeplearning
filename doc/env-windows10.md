@@ -9,6 +9,7 @@
 - CUDA Installation: https://developer.nvidia.com/cuda-downloads
 - CUDNN - CUDA for Deep Neural Networks: https://developer.nvidia.com/cudnn
   - add "C:\tools\cuda\bin" to PATH (the directory including cudnn64_5.dll)
+- pycharm: https://www.jetbrains.com/pycharm/  
 - Anaconda 
 - Conda without GPU
 ```
@@ -16,7 +17,7 @@ conda create --name tensorflow python=3.5
 source activate tensorflow
 conda install jupyter
 conda install scipy
-pip install tensorflow-gpu
+pip install tensorflow
 ```
 - Conda with GPU 
 ```
@@ -26,7 +27,7 @@ conda install jupyter
 conda install scipy
 pip install tensorflow-gpu
 ```
-### Test
+### Test using cli
 - test program
 ```
 $ cat gpu.py
@@ -56,6 +57,12 @@ Device mapping:
 MatMul: (MatMul): /job:localhost/replica:0/task:0/gpu:0
 $ source deactivate tensorflow-tf
 ```
+
+### Test using pycharm
+- Env setting
+  - File > Settings > Project: <Something> > Project Interpreter > [*] Icon > Create Conda Env
+- Run gpu.py
+
 ## Reference
 - http://www.heatonresearch.com/2017/01/01/tensorflow-windows-gpu.html
 - https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/how_tos/using_gpu/
