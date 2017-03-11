@@ -15,6 +15,9 @@ mkvirtualenv
 ## jupyter
 ```
 pip install jupyter
+git clone https://github.com/GunSik2/deeplearning
+cd deeplearning
+jupyter notebook
 ```
 
 ## 
