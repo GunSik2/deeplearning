@@ -7,11 +7,11 @@
 ```
 pip install virtualenv
 pip install virtualenwrapper-win
-mkvirtualenv
-> setx WORKON_HOME tensor
+mkvirtualenv tensorflow
 > deactivate
-> workon tensor
+workon tensorflow
 ```
+
 ### jupyter
 ```
 pip install jupyter
