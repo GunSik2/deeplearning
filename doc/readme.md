@@ -6,7 +6,7 @@ Understand and use Deep Learning
 - [Tensorflow + GPU on Windows](day1-env-gpu.md)
 
 ### ML
-- Linerar Regression
+- [Linerar Regression](/src/b1.linear/linear_regression.ipynb)
 - Logistic (Regression) Classification
 - Softmax Regression (Multinomial Logistic Regression)
 - Rate, Overfitting, Regularization
