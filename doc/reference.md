@@ -21,3 +21,6 @@
 - https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 - https://tensorflow.blog/2016/04/28/first-contact-with-tensorflow/
 - https://www.gitbook.com/book/tensorflowkorea/tensorflow-kr/details
+
+### ING
+- https://www.tensorflow.org/get_started/mnist/beginners
