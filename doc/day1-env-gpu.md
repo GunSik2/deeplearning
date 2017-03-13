@@ -23,6 +23,11 @@ cd deeplearning
 jupyter notebook
 ```
 
+### pycharm
+- Env setting
+  - File > Settings > Project: <Something> > Project Interpreter > [*] Icon > Add Local
+  - C:\Users\Gun\Envs\tensorflow\Scripts\python.exe
+  
 ### [CUDA Test](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
 ```
 (tensorflow-gpu) >python
