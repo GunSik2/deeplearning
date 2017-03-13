@@ -1,6 +1,4 @@
-
-
-Reference
+### Reference
 - https://hunkim.github.io/ml/
 - http://www.holehouse.org/mlclass/
 - https://github.com/aymericdamien/TensorFlow-Examples
@@ -17,3 +15,7 @@ Reference
   - https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay
   - http://bakyeono.net/post/2015-08-24-using-telegram-bot-api.html
   - https://github.com/sixhobbits/python-telegram-tutorial/tree/master/part1
+
+
+### TBD
+- https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
