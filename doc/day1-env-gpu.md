@@ -23,7 +23,7 @@ cd deeplearning
 jupyter notebook
 ```
 
-### GPU Test
+### [GPU Test](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
 ```
 (tensorflow-gpu) >python
 Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:18:55) [MSC v.1900 64 bit (AMD64)] on win32
