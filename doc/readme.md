@@ -8,7 +8,7 @@ Understand and use Deep Learning
 ### ML
 - [Linerar Regression](/src/b1.linear/linear_regression.ipynb)
 - Logistic (Regression) Classification
-- [Softmax Regression](/src/b3.softmax/mnist_softmax.ipynb) (Multinomial Logistic Regression)
+- [Softmax Regression (Multinomial Logistic Regression)](/src/b3.softmax/mnist_softmax.ipynb)
 - Rate, Overfitting, Regularization
 - Neural Network - Backpropagation
 - Neural Network - ReLU, Dropout
